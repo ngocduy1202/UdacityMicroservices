@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DogMicroservices" />
-        <module name="eureka" />
+        <module name="dogs" />
+        <module name="item-microservices" />
+        <module name="server" />
+        <module name="dog-microservices" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="items" target="18" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="DogMicroservices" options="-parameters" />
-      <module name="eureka" options="-parameters" />
-      <module name="items" options="" />
+      <module name="dog-microservices" options="-parameters" />
+      <module name="dogs" options="-parameters" />
+      <module name="item-microservices" options="-parameters" />
+      <module name="server" options="-parameters" />
     </option>
   </component>
 </project>
